@@ -14,6 +14,23 @@
   <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto+Slab' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
   <link rel="stylesheet" type="text/css" href="51c.css" />
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '1112220998839759');
+    fbq('track', "PageView");
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1112220998839759&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
   <script src="jquery.fullPage.js" type="text/javascript"></script>
@@ -51,6 +68,10 @@
           $(".box img, .box h2, .box h3").remove();
         });
       });
+
+      $( "#register_btn" ).click(function( event ) {
+        fbq('track', 'clickRegistration');
+      });
     });
   </script>
 </head>
@@ -83,10 +104,9 @@
         <p class="seconds">00</p>
         <p class="timeRefSeconds">seconds</p>
       </div>
-      <a href="https://www.eventbrite.com/e/51conference-2016-tickets-21328008648"><button class="btn1">Register Now</button></a>
+      <a href="https://www.eventbrite.com/e/51conference-2016-tickets-21328008648"><button class="btn1" id="register_btn">Register Now</button></a>
     </div>
   </div>
-
 
   <div class="section" id="section2">
       <div class="blueDiagonal"></div>
