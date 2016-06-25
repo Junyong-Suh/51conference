@@ -72,21 +72,25 @@ p{
 .section{
 	text-align:center;
 }
+#menu img{
+	width:19px;
+	position: relative;
+	left: 10px;
+	top: 5px;
+}
 #menu li {
 	display:inline-block;
-	margin: 10px;
+	margin: 10px 5px;
 	color: #262626;
 /*	-webkit-border-radius: 10px;
             border-radius: 10px;
 */}
 #menu li.active{
-	background:#666;
-	background: rgba(0,0,0, 0.5);
 	color: #fff;
 }
 #menu li a{
 	text-decoration:none;
-	color: #fff;
+	color: #333;
 }
 /*#menu li.active a:hover{
 	color: #000;
@@ -97,7 +101,6 @@ p{
 #menu li a,
 #menu li.active a{
 	padding: 9px 18px;
-	display:block;
 	font-size: 0.8em;
 }
 #menu li.active a{
@@ -113,8 +116,7 @@ p{
 	padding: 0;
 	margin:0;
 	text-transform: uppercase;
-	background: #000;
-	opacity: 0.8;
+	background: #fff;
 }
 .twitter-share-button{
 	position: fixed;
@@ -259,21 +261,28 @@ p{
 			width: 100px;
 			margin-top: 30px;
 			margin-bottom: 30px;
+		}
+		#section0 {
+			background-image: url('imgs/sf.png');
+			background-size: cover;
 		}	
 		#section0-content{
 			width: 960px;
 			margin: 0 auto;
 		}
-		#section0 img{
-			float: left;
-			width: 380px;		
-		}
+
 		#section0-content h1{
 			display: inline-block;
+			font-size: 80px;
 			margin-top: 20px;
+			color: #fff;
 		}
 		#section0 h2{
 			font-size: 1.7em;
+			color: #fff;
+		}
+		#section0 p{
+			color: #fff !important;
 		}
 		#section1 p{
 			color:#ffffff !important;
@@ -287,21 +296,23 @@ p{
 		#section2 li{
 			display: inline-block;
 		}
+		#section2-content h1{
+			font-size: 1em;
+		}
 		#section2 img{
 			margin: 15px 0 15px 2px;
-			border: 5px solid #fff;
-			width:120px;
-			box-shadow: 1px 1px 2px #ccc;
+			width:114px;
 			display: block;
 			cursor: pointer;
 			filter: grayscale(100%);
 			-webkit-filter: grayscale(100%);
 		}
-		#section2-content h2, h3{
+		#section2-content h3, h4{
 			display: none;
 		}
 		#section2-content p{
-			font-size: 1.1em;
+			font-size: 0.8em;
+			padding-top: 5px;
 		}
 		.section2-sm-p{
 			font-size:0.8em !important; 
@@ -333,6 +344,7 @@ p{
 		}
 		#section4 h1{
 			color: #555;
+			margin-top: -100px;
 		}
 		.intro p{
 			width: 50%;
@@ -367,15 +379,51 @@ p{
 			display: inline-block;
 			vertical-align: top;
 		}
+
+		#section6 h1{
+			color:#555;
+			font-size: 2.5em;
+		}
+		#section6 h2{
+			font-size: 1.2em;
+			padding: 100px 0 20px 0;
+			color: #777;
+		}
+		#section6 img{
+			width: 400px;
+			box-shadow: 1px 1px 1px #eee;
+		}
+		#section6 span{
+			font-size: 3em;
+			vertical-align: calc(195%);
+			padding: 70px 70px;
+			font-size: 2.5em;
+			box-shadow: 1px 1px 1px #eee;
+			margin-left: 30px;
+			background-color: #fdfdfd;
+		}
 		.btn1{
-			background-color: #3d4ef0;
-			border: medium none;
+			background: none;
+			border: 2px solid #fff;
+			border-radius: 2px;
 		    color: white;
 		    margin: 1rem;
 		    overflow: hidden;
 		    padding: 20px 30px;
 		    font-size: 1em;
-		    text-transform: uppercase;
+		    text-transform: capitalize;
+		    cursor: pointer;
+		}
+		.btn2{
+			background: #078AEE;
+			border: 2px solid #078AEE;
+			border-radius: 2px;
+		    color: #fff;
+		    margin: 1rem;
+		    overflow: hidden;
+		    padding: 10px 50px;
+		    font-size: 1em;
+		    text-transform: capitalize;
 		    cursor: pointer;
 		}
 
