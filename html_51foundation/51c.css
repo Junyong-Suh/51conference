@@ -325,10 +325,11 @@ p{
 		#section2-content{
 			position:relative;
 		}
-		#section3 img{
-			bottom: 0px;
-			position: absolute;
-			margin-left: -420px;
+		#section3 img:first-child{
+			width:960px;	
+		}
+		#section3 img:last-child{
+			width:960px;	
 		}
 		#section3 h1, p{
 			color: #555 !important;
@@ -622,4 +623,11 @@ p{
 #faq li{
 	margin-left: 30px;
 	list-style: initial;
+}
+#schedule{
+	width:960px;
+	margin: 80px auto 0;
+}
+#schedule img{
+	position: relative;
 }
