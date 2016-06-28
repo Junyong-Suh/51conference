@@ -73,6 +73,16 @@
       $( "#register_btn" ).click(function( event ) {
         fbq('track', 'clickRegistration');
       });
+
+      $("#why-toggle").toggle(function(){
+        $(this).text("English");
+        $("#why-kr").css("display", "inherit");
+        $("#why-en").css("display", "none");
+      }, function(){
+        $(this).text("한국어");
+        $("#why-kr").css("display", "none");  
+        $("#why-en").css("display", "inherit");
+      });
     });
   </script>
 </head>
@@ -295,13 +305,21 @@
       <p>
         The goal of the 51 Conference is to offer community-driven network to support entrepreneurs and tech professionals across the world. We bring together some of the Silicon Valley’s outstanding innovators to share the latest industry trends and know-hows of life in tech. The 3- day event features 30+ compelling keynotes, panels, and workshops to cultivate critical-thinking skills and promote disruptive ideas.
       </p>
-      <ul>
+      <ul id="why-en">
         <li>Latest industry trends and new opportunities in tech</li>
         <li>Taste of  Silicon Valley’s different startup cultures</li>
         <li>Access to industry experts to expand your network</li>
         <li>Professional advices from great minds in tech</li>
         <li>Personal help on improving your resume</li>
+      </ul>      
+      <ul id="why-kr">
+        <li>최신 산업 동향과 테크업계에서의 새로운 기회를 만나실 수 있습니다</li>
+        <li>실리콘밸리의 여러 스타트업에 기업문화를 만나볼 수 있습니다</li>
+        <li>전문가들과 직접 만나 네트워킹할 수 있습니다</li>
+        <li>기술분야의 전문적인 조언을 받으실 수 있습니다</li>
+        <li>이력서 작성에 도움을 받으실 수 있습니다</li>
       </ul>
+      <div id="why-toggle">한국어</div>
     </div>
   </div>
 

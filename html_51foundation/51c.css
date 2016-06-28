@@ -299,6 +299,16 @@ p{
 		#section1 ul{
 			margin-top:20px;
 		}
+		#why-toggle{
+			color: #f0ac00;
+			border-bottom: 1px solid;
+			display: inline-block;
+			cursor: pointer;
+			margin-top: 20px;
+		}
+		#why-kr{
+			display: none;
+		}
 		#section2 li{
 			display: inline-block;
 		}
@@ -419,7 +429,7 @@ p{
 			margin-top: 30px;
 		}
 		.btn1{
-			background: none;
+			background: rgba(255, 0, 0, 0.8) none repeat scroll 0 0;
 			border: 2px solid #fff;
 			border-radius: 2px;
 		    color: white;
