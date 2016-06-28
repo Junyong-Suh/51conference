@@ -45,8 +45,13 @@ abbr,acronym { border: 0;
 }
 
 
-/* Custom CSS
- * --------------------------------------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#section0-content, .intro{
+		font-size:150%;
+	}
+}
+
+
 body{
 	font-family: 'Roboto', serif;
 	color: #333;
