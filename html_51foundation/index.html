@@ -88,6 +88,15 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <ul id="menu">
   <li data-menuanchor="firstPage"><a href="#firstPage"><img src="imgs/logo.png"></a></li>
   <li data-menuanchor="secondPage"><a href="#secondPage">Speakers</a></li>
@@ -97,7 +106,7 @@
   <li data-menuanchor="6thpage"><a href="#6thpage">Location</a></li>
   <li data-menuanchor="7thpage"><a href="#7thpage">Sponsor</a></li>
   <li><a href="faq/index.html">FAQ</a></li>
-  <li data-menuanchor="8thpage"><a style="background:#3b5998; color:#fff;" href="https://www.facebook.com/51conference">Facebook</a></li>
+  <li><div class="fb-follow" data-href="https://www.facebook.com/51conference" data-height="34px" data-layout="button" data-show-faces="true"></div></li>
 </ul>
 
 <div id="fullpage">
@@ -123,7 +132,7 @@
   </div>
 
   <div class="section" id="section2">
-    <div class="blueDiagonal"></div>
+<!--<div class="blueDiagonal"></div>-->    
     <div class="backdrop"></div>
     <div class="box"></div>
     <div class="close"></div>

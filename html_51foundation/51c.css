@@ -90,6 +90,10 @@ p{
 /*	-webkit-border-radius: 10px;
             border-radius: 10px;
 */}
+#menu li:last-child{
+	position: relative;
+	top: 2px;
+}
 #menu li.active{
 	color: #fff;
 }
@@ -249,7 +253,7 @@ p{
 
 
  		body{
-			font-family: 'Roboto Slab', serif;				
+			font-family: 'Roboto', serif;				
 		}
 		h1{
 			font-size: 3.2em;	
@@ -274,7 +278,7 @@ p{
 		}
 
 		#section0-content h1{
-			font-size: 3.2em;
+			font-size: 5.2em;
 			margin-bottom: 20px;
 			color: #fff;
 			font-weight: 700;
@@ -319,6 +323,7 @@ p{
 		}
 		#section2-content h1{
 			margin-bottom: 0px;
+			color: #26262a;
 		}
 		#section2 img{
 		    margin: 24px 0 10px 2px;
