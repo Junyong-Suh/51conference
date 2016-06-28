@@ -292,6 +292,13 @@ p{
 			font-size: 1.5em;
 			color: #f0ac00;			
 		}
+		#section1 li{
+			color: #fff;
+			list-style-type: initial;
+		}
+		#section1 ul{
+			margin-top:20px;
+		}
 		#section2 li{
 			display: inline-block;
 		}
@@ -407,6 +414,9 @@ p{
 			margin-left: 30px;
 			background-color: #fdfdfd;
 			font-family: helvetica;
+		}
+		#sponsor{
+			margin-top: 30px;
 		}
 		.btn1{
 			background: none;
