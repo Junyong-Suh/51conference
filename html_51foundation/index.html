@@ -47,10 +47,12 @@
 
       $("#section2-content").find("li").click(function(){
         var imgSrc = $(this).find("img").attr("src");
-        var title = $(this).find("h2").html();
+        var name = $(this).find("h2").html();
         var bio = $(this).find("h3").html();
+        var title = $(this).find("h4").html();
+        var work = $(this).find("p").html();
 
-        $(".box").append("<img src="  +  imgSrc + ">" + "<h2>" + title + "</h2>" + "<h3>" + bio + "</h3>");
+        $(".box").append("<img src="  +  imgSrc + ">" + "<h2>" + name + "</h2>" + "<h3>" + bio + "</h3>" + "<h4>" + title + "</h4>");
         $(".box img").css({"width":"250px","filter":"grayscale(0%)"});
         $(".backdrop, .box").animate({"opacity":"0.9"}, 300, "linear");
         $(".backdrop, .box").css("display","block");
@@ -83,6 +85,7 @@
         $("#why-kr").css("display", "none");  
         $("#why-en").css("display", "inherit");
       });
+
     });
   </script>
 </head>
@@ -242,6 +245,13 @@
           <h3>Software Engineer</h3>
           <h4>Software Engineer</h4>
           <p>Airbnb</p>
+        </li>
+        <li>
+          <img src="imgs/Alby.jpg">
+          <h2>M. Alby Bocanegra</h2>
+          <h3>A Strategic Guide to Career Search</h3>
+          <h4>Manager Talent Acquisition</h4>
+          <p>City of S.F</p>
         </li>
         <li>
           <img src="imgs/ChangSong.jpg">

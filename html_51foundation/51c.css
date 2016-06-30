@@ -664,3 +664,12 @@ p{
 #schedule img{
 	position: relative;
 }
+#query{
+	color: #e92992;
+	border-bottom: 1px solid;
+	display: inline-block;
+	cursor: pointer;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
