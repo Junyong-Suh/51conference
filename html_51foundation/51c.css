@@ -423,7 +423,7 @@ p{
 			width: 400px;
 			box-shadow: 1px 1px 1px #eee;
 		}
-		#section6 img:first-child{
+		#section6 img :first-child{
 			width:200px;
 			border:10px solid #fff;
 		}
