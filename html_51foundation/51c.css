@@ -423,6 +423,10 @@ p{
 			width: 400px;
 			box-shadow: 1px 1px 1px #eee;
 		}
+		#section6 img:first-child{
+			width:200px;
+			border:10px solid #fff;
+		}
 		#section6 span{
 			font-size: 3em;
 			padding: 70px 70px;
@@ -673,3 +677,23 @@ p{
 	font-weight: bold;
 }
 
+#promo{
+	background: #333;	;
+	width: 210px;	
+	padding: 20px 70px;
+	border: 1px solid #999;
+	margin: 0 auto;
+}
+#promo h1{
+	margin-bottom: 7px;
+	color: #fff;
+	font-size: 2em;
+	
+}
+#promo h3{
+	color:#aaa;	
+}
+#promo span{
+	color: #fff;
+	margin-left: 10px;
+}
