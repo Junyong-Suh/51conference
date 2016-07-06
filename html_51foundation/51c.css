@@ -420,22 +420,22 @@ p{
 			display: block;
 		}
 		#section6 img{
-			width: 400px;
+			width: 300px;
 			box-shadow: 1px 1px 1px #eee;
+			margin-left: 10px;
 		}
-		#section6 img :first-child{
-			width:200px;
+		#section6 img:nth-of-type(1){
+			width:253px;
 			border:10px solid #fff;
 		}
 		#section6 span{
-			font-size: 3em;
-			padding: 70px 70px;
-			font-size: 2.5em;
+			font-size: 30px;
+			padding: 51px 70px;
 			box-shadow: 1px 1px 1px #eee;
 			margin-left: 30px;
 			background-color: #fdfdfd;
 			font-family: helvetica;
-			bottom: 80px;
+			bottom: 57px;
 			position: relative;
 		}
 		#sponsor{
