@@ -52,7 +52,7 @@
         var title = $(this).find("h4").html();
         var work = $(this).find("p").html();
 
-        $(".box").append("<img src="  +  imgSrc + ">" + "<h2>" + name + "</h2>" + "<h3>" + bio + "</h3>" + "<h4>" + title + "</h4>");
+        $(".box").append("<img src="  +  imgSrc + ">" + "<h2>" + name + "</h2>" + "<h3>" + bio + "</h3>" + "<h4>" + title + "</h4>" + "<p>@" + work + "</p>");
         $(".box img").css({"width":"250px","filter":"grayscale(0%)"});
         $(".backdrop, .box").animate({"opacity":"0.9"}, 300, "linear");
         $(".backdrop, .box").css("display","block");
@@ -61,14 +61,14 @@
       $(".close").click(function(){
         $(".backdrop, .box").animate({"opacity":"0"}, 300, "linear", function(){
           $(".backdrop, .box").css("display","none");
-          $(".box img, .box h2, .box h3").remove();
+          $(".box img, .box h2, .box h3, .box h4, .box p").remove();
         });
       });
 
       $(".backdrop").click(function(){
         $(".backdrop, .box").animate({"opacity":"0"}, 300, "linear", function(){
           $(".backdrop, .box").css("display","none");
-          $(".box img, .box h2, .box h3").remove();
+          $(".box img, .box h2, .box h3, .box h4, .box p").remove();
         });
       });
 
@@ -161,8 +161,8 @@
         <li>
           <img src="imgs/taehoon.jpg">
           <h2>강태훈</h2>
-          <h3>Sharing Economy</h3>
-          <h4>Engineer</h4>
+          <h3>Agile Software Development</h3>
+          <h4>Sr. Software Engineer</h4>
           <p>Uber</p>
         </li>
         <li>
@@ -210,28 +210,28 @@
         <li>
           <img src="imgs/hohyun.jpg">
           <h2>유호현</h2>
-          <h3>Software Engineer</h3>
+          <h3>실리콘 밸리에서는 여유롭게 일하는 걸까, 밤낮 없이 일하는 걸까?</h3>
           <h4>Software Engineer</h4>
           <p>Airbnb</p>
         </li>
         <li>
           <img src="imgs/JunyongSuh.jpg">
           <h2>서준용</h2>
-          <h3>Software Engineer</h3>
+          <h3>미국에서 일하는데 비자가 왜 필요한가요?</h3>
           <h4>Software Engineer</h4>
           <p>GoPro</p>
         </li>
         <li>
           <img src="imgs/MinsungHong.jpg">
           <h2>홍민성</h2>
-          <h3>Software Engineer</h3>
+          <h3>How to crush your coding interview</h3>
           <h4>Software Engineer</h4>
           <p>Facebook</p>
         </li>
         <li>
           <img src="imgs/jungeunkim.jpg">
           <h2>김정은</h2>
-          <h3>Staff User Experience Designer</h3>
+          <h3>Career coaching - Designer</h3>
           <h4>Staff User Experience Designer</h4>
           <p>Airbnb</p>
         </li>
@@ -245,14 +245,14 @@
         <li>
           <img src="imgs/LeoShin.jpg">
           <h2>Leo Shin</h2>
-          <h3>Director of Engineering</h3>
+          <h3></h3>
           <h4>Director of Engineering</h4>
           <p>YooNoodle</p>
         </li>
         <li>
           <img src="imgs/patrickyoon.jpg">
           <h2>Patrick Yoon</h2>
-          <h3>Software Engineer</h3>
+          <h3>Culture at Airbnb: How to drive an impact at fast growing company</h3>
           <h4>Software Engineer</h4>
           <p>Airbnb</p>
         </li>
@@ -266,14 +266,14 @@
         <li>
           <img src="imgs/ChangSong.jpg">
           <h2>송창걸</h2>
-          <h3>QA</h3>
+          <h3>Leadership in a software team</h3>
           <h4>QA</h4>
           <p>Oracle</p>
         </li>
         <li>
           <img src="imgs/HeesangJu.jpg">
           <h2>주희상</h2>
-          <h3>Product Manager</h3>
+          <h3>Career coaching - Product Manager</h3>
           <h4>Product Manager</h4>
           <p>Facebook</p>
         </li>

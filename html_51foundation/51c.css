@@ -609,17 +609,23 @@ p{
 	display: inline-block;
 	float: right;
 	width: 46%;
-	padding-top: 100px;
+	padding-top: 60px;
 	color: orange;
 	font-weight: bold;
+	font-size: 1.2em !important;
 }
-.box h3{
+.box h3, .box h4{
 	display: inline-block;
 	float: right;
 	width: 44%;
 	padding: 10px 0;
+	font-size: 1em;
 }
-
+.box p{
+	display: inline-block;
+	font-size: 1.2em;
+	margin-left: 25px;
+}
 .close{
   cursor: pointer;  
 }
