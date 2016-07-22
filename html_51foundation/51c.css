@@ -427,23 +427,22 @@ p{
 			font-size: 2.5em;
 		}
 		#section6 h2{
-			font-size: 1.2em;
-			padding: 60px 0 20px 0;
+			font-size: 1em;
+			padding: 30px 0 10px 0;
 			color: #777;
 			display: block;
 		}
 		#section6 img{
-			width: 300px;
+			width: 250px;
 			box-shadow: 1px 1px 1px #eee;
 			margin-left: 10px;
 		}
 		#section6 img:nth-of-type(1){
-			width:253px;
-			border:10px solid #fff;
+			width:250px;
 		}
 		#section6 span{
-			font-size: 30px;
-			padding: 51px 70px;
+			font-size: 20px;
+			padding: 40px 70px 50px;
 			box-shadow: 1px 1px 1px #eee;
 			margin-left: 30px;
 			background-color: #fdfdfd;
@@ -686,6 +685,7 @@ p{
 }
 #schedule img{
 	position: relative;
+	width: 960px;
 }
 #query{
 	color: #e92992;
